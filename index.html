@@ -2,8 +2,8 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Para 𝐒𝐜𝐚𝐫𝐥𝐞𝐭 🌸</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para 𝐇𝐢𝐥𝐚𝐫𝐢 🌸</title>
     <style>
         body {
             background: linear-gradient(135deg, #fce4ec, #f8bbd0);
@@ -13,29 +13,27 @@
             align-items: center;
             min-height: 100vh;
             margin: 0;
+            padding: 20px;
             color: #333;
-            padding: 10px;
-            box-sizing: border-box;
         }
         .card {
             background: #fff;
-            padding: 40px 30px;
+            padding: 30px 25px;
             border-radius: 15px;
             box-shadow: 0 15px 35px rgba(0,0,0,0.2);
             text-align: center;
             max-width: 440px;
-            border: 1px solid #f8bbd0;
             width: 100%;
-            box-sizing: border-box;
+            border: 1px solid #f8bbd0;
         }
         .card h1 {
             color: #d81b60;
-            font-size: 28px;
+            font-size: 24px;
             margin-bottom: 20px;
             letter-spacing: 1px;
         }
         .card p {
-            font-size: 17px;
+            font-size: 16px;
             line-height: 1.6;
             margin-bottom: 20px;
             color: #555;
@@ -43,4 +41,63 @@
         .card a.link {
             text-decoration: none;
             color: #d81b60;
-            font-we
+            font-weight: bold;
+        }
+        .btn {
+            background-color: #d81b60;
+            color: #fff;
+            padding: 14px 24px;
+            border: none;
+            border-radius: 30px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #c2185b;
+            transform: scale(1.05);
+        }
+        .footer {
+            font-size: 13px;
+            color: #888;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                padding: 20px;
+            }
+            .card h1 {
+                font-size: 22px;
+            }
+            .card p {
+                font-size: 15px;
+            }
+            .btn {
+                padding: 12px 20px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Para 𝐇𝐢𝐥𝐚𝐫𝐢 </h1>
+        <p>Alguns convites não se escrevem... se sentem. E este é um deles.</p>
+        <p>Quero te convidar para um jantar neste sábado, às <strong>19:30</strong>, no 
+            <a class="link" href="https://www.instagram.com/zamami_blumenau/" target="_blank">Zamami</a>
+        </p>
+        <p>Endereço: <strong>Rua Joinville, 288 - Vila Nova</strong>.</p>
+        <p>Quem convida? Gabriel.<br>Com a intenção sincera de te proporcionar uma noite à altura da sua presença.</p>
+
+        <!-- Botão Play no Spotify -->
+        <a class="btn" href="https://open.spotify.com/intl-pt/track/3UGIZ8qcrMTwzLbx6Kttqt?si=e0995b61f19741ca" target="_blank">APERTE AQUI</a>
+
+        <!-- Botão Confirmar Presença -->
+        <a class="btn" href="https://wa.me/+554791188587?text=Eu%20aceito%20ser%20sua%20namorada%20por%20essa%20noite!" target="_blank">Confirme sua presença aqui!</a>
+    </div>
+</body>
+</html>
